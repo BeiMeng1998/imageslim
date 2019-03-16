@@ -1,7 +1,8 @@
 # `imageslim`
 
 [![npm](https://img.shields.io/npm/v/imageslim.svg?style=flat-square)](https://npmjs.org/imageslim)
-Elegant terminal spinner
+
+Picture Compression Tool
 
 ## Install
 

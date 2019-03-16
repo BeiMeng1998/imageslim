@@ -73,11 +73,14 @@ if (!program.force) {
                 ]
             })
         }
-        await imagemin([item.source], item.target, {
-            use: [
-                imageminWebp()
-            ]
-        })
+        if (program.webp) {
+            await imagemin([item.source], item.target, {
+                use: [
+                    imageminWebp()
+                ]
+            })
+        }
+
         bar.tick()
     }
     for (let i = 0; i < imgs.length; i++) {

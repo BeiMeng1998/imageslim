@@ -1,22 +1,22 @@
 {
 	"name": "imageslim",
-	"version": "0.0.2",
-	"description": "",
+	"version": "0.0.5",
+	"description": "Picture Compression Tool",
 	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+	"bin": {
+		"imageslim": "index.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Braised-Cakes/imageslim.git"
 	},
-	"author": "",
+	"author": "Braised-Cakes",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/Braised-Cakes/imageslim/issues"
 	},
 	"homepage": "https://github.com/Braised-Cakes/imageslim#readme",
-	"devDependencies": {
+	"dependencies": {
 		"chalk": "^2.4.2",
 		"commander": "^2.19.0",
 		"glob": "^7.1.3",
